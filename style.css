@@ -46,11 +46,9 @@ button {
     justify-content: space-around;
     margin: 50px 0;
 }
-.container div{
-    cursor: pointer;
-}
 .container div img {
     transition: .3s;
+    cursor: pointer;
 }
 .container div img:hover {
     transform:translateY(-5px);
