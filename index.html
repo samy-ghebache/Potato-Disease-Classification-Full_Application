@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Potato model</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<head>
+    <title>Potato Disease Model</title>
+</head>
+<body>
+    <h1>Potato Disease Model</h1>
+    <div class="container">
+        <div class="early_blight">
+            <img src="./img/early_blight.JPG" alt="early_blight">
+            <h2>Early Blight</h2>
+        </div>
+        <div class="healthy">
+            <img src="./img/healthy.JPG" alt="healthy">
+            <h2>Healthy</h2>
+        </div>
+        <div class="early_blight">
+            <img src="./img/late_blight.JPG" alt="late_blight">
+            <h2>Late Blight</h2>
+        </div>
+    </div>
+    <div class="upload-image">
+        <input type="file" id="imageInput" accept="image/*">
+        <label for="imageInput">Choose a Photo</label>
+    </div>
+    <div class="predict">
+        <button onclick="predictImage()">Predict</button>
+    </div>
+    <div class="result">
+        <h2>Class: <span id="class"></span></h2>
+        <h2>Confidence: <span id="confidence"></span></h2>
+
+    </div>
+    <div class="footer" id="contact">
+        <a href="https://www.linkedin.com/in/samy-ghebache-0232b0251/" target="_blank">
+         <img src="./img/linkedin.png" alt="linkedin">
+        </a>
+        <a href="https://www.facebook.com/profile.php?id=100009507979957" target="_blank">
+         <img src="./img/facebook.png" alt="facebook">
+        </a>
+        <a href="mailto:ks_ghebache@esi.dz" target="_blank">
+         <img src="./img/gmail.png" alt="gmail">
+        </a>
+       </div>
+    <script src="app.js"></script>
+</body>
+</html>
