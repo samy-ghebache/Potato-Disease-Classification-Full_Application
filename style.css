@@ -75,7 +75,8 @@ button {
 
 .result {
     text-align: center;
-    color:white
+    color:white;
+    margin:0 10px;
 }
 span {
     color:black
